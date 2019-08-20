@@ -1,0 +1,21 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "This is a simple restful auth api developed during learning user management systems.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Ayush Roy",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9"
+  }
+}
